@@ -1,0 +1,82 @@
+﻿@model MarineTankCalculations.Models.Home
+
+@{
+    ViewBag.Title = "Salinity";
+}
+
+@using (Html.BeginForm())
+{
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="center-heading text-center">
+                    <h2>Salinity</h2><br>
+                    <span class="icon"><i class="fa fa-calculator"></i></span>
+                </div><!--center heading-->
+            </div>
+            <div class="col-md-12">
+             <div class="row">
+              <div class="col-md-6">
+                    <div class="info-text">
+                        <p>
+                            Salinity is one of the most crucial parameters in a tank to keep constant. Salinity is measured using either a refractometer or hydrometer  (refractometer being the most accurate tool). Both tools measure both specific gravity (SG) and parts per thousand (ppt). Both forms of measurement are acceptable and it is down to the user. <br/><br/> 
+                            The salinity of the tank should be between 1.024 SG/32 ppt and 1.026 SG/35 ppt. A drop below or above this can have adverse effects on any life that you have within your tank. It is important that salinity is checked
+                            on a regular basis. You can keep the salinity by using an auto-top up system to add
+                            R/O water to the tank whenever evaporation occurs in the tank. However, if you don't have an auto-top up system or just
+                            need to know how to get the salinity of your water change correct, you can calculate these adjustments using the below
+                            links to the salinity calculators.
+                            <br /><br />
+                            There are two types of salinity calculator. One that calculates the required salinity of a water change in order to increase
+                            salinity or how much R/O water to add in order to decrease salinity.
+                            <br /><br />
+                            Feel free to use them!
+                        </p>
+                    </div>
+                </div>
+               <div class="col-md-1"></div>
+               <div class="col-md-5">
+                <div class="col-md-12">
+                 <div class="row">
+                  <img src="~/Content/refractometer.jpg" class="img-responsive"/><br><br>
+                 </div>
+                  </div>
+                  <div class="col-md-12">
+                  <div class="row">
+                    <div class="salinitybuttons">
+                    @Html.ActionLink("Salinity Decrease", "SalinityDecrease", null, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Salinity Increase", "SalinityIncrease", null, new { @class = "btn btn-default" })
+                    </div>
+                    </div>
+              </div>
+            </div>
+            </div><br />                 
+        </div>
+      </div>
+    </section><!--contact-->
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

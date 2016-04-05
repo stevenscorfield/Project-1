@@ -1,0 +1,233 @@
+﻿body {
+    /*padding-bottom: 20px;*/
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: 'Lato', sans-serif;
+    color:#333;
+    font-size: 14px;
+    line-height: 24px;
+    background-color:#FFFBFF;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+p{
+    letter-spacing: 0.09em;
+    padding-top:0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0px;
+    margin-bottom:0px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom:0px;
+}
+h2{
+    padding-top:25px;
+}
+label{
+    font-weight: 400;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/**********bootstrap navigation overrides***********/
+.navbar-default {
+    background-color: #66C3BC;
+    border-bottom: 2px solid #f5f5f5 !important;
+    width:100%;
+    min-height: 50px;
+    border-radius:0px;
+}
+.navbar {
+    position: relative;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 12px;
+    color:#000;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #25CBF5;
+    background-color: transparent;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color:#000 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/***************Banner Area********************/
+#home {
+    background-color: #444;
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    background-image: url(fish-banner.jpg);
+    display: table;
+    width: 100%;
+    height: 250px;
+    min-height: 300px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    vertical-align: middle;
+    z-index: 1;
+    background-size:cover;
+}
+.home-content {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 3;
+}
+.home-top-slide-text{
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: .08em;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+/***************Footer Area********************/
+#footer {
+    position: relative;
+    border-bottom: 1px solid black;
+}
+#footerText
+{
+    color: black;
+    font-size: 0.8em;
+    padding-top: 1%;
+    padding-left: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.copyright{
+    padding: 25px 0;
+    color:#000;
+    font-weight: 700;
+}
+.copyright a{
+    color:black;
+}
+.footer-btm{
+    background: #25AAA0; 
+}
+.center-heading {
+    margin-bottom: 40px
+}
+.center-heading h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 27px;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+@media(max-width:533px){
+    .center-heading h2{
+        font-size: 30px;
+        letter-spacing: 0.10em;
+    }
+}
+.center-heading h2:first-letter{
+    text-transform: uppercase;
+}
+.center-heading .icon {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 21px;
+    width: 130px;
+    margin: 0 auto;
+    position: relative;
+    color:  #66C3BC;
+}
+.center-heading .icon:before {
+    display: inline-block;
+    content: "";
+    border-bottom: 1px solid #66C3BC;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 50px;
+}
+.center-heading .icon:after {
+    display: inline-block;
+    content: "";
+    border-bottom: 1px solid #66C3BC;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 50px;
+}
+.info-text{
+    text-align: justify;
+}
+
+.decrease{
+    padding-left:20%;
+}
+#coral{
+    width:535px;
+    height:356px;
+}
+#fish{
+    width:550px;
+    height:440px;
+}
+.link-me{
+    margin-top: 30px;
+}
+#fk{
+    width:223px;
+    height:76px;
+}
+.btn-default {
+    background-color:#66C3BC;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active{
+    color: #000;
+    background-color: #3e9e97;
+}
+.break {
+    padding-bottom: 10px;
+}
+.salinitybuttons {
+   margin-left: 10px;
+}
+.output {
+    color:red;
+    font-weight:400;
+}
+
+
+
+
+
+
+
+
+
+
+
+

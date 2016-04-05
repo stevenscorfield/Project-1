@@ -1,0 +1,31 @@
+﻿@model MarineTankCalculations.Models.Home
+
+@{
+    ViewBag.Title = "Substrate";
+}
+
+<h2>Substrate</h2>
+
+@{
+    List<SelectListItem> listItems = new List<SelectListItem>();
+    listItems.Add(new SelectListItem
+    {
+        Text = "Coral Sand",
+        Value = "cSand"
+    });
+    listItems.Add(new SelectListItem
+    {
+        Text = "Coral Gravel",
+        Value = "cGravel",
+        Selected = true
+    });
+    listItems.Add(new SelectListItem
+    {
+        Text = "Silica Sand",
+        Value = "sSand"
+    });
+}
+
+@Html.DropDownList("listItems", "-- Select Status --")
+
+
